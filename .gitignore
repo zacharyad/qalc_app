@@ -1,0 +1,37 @@
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Mac File System File...utterly useless to anyone but me.
+.DS_Store
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Build directories
+public
+dist
+
+# Images
+images/avatars/
+images/captchas/
+images/smileys/
+images/member_photos/
+images/signature_attachments/
+images/pm_attachments/
+
+# For security do not publish the following files
+system/expressionengine/config/database.php
+system/expressionengine/config/config.php
+
+# Caches
+sized/
+thumbs/
+_thumbs/
+*/expressionengine/cache/*
+
+# AWS stuff for publishing static files
+.aws-credentials.json
+.awspublish*
