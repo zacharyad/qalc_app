@@ -1,0 +1,33 @@
+<% include ./partials/header %>
+
+<div class="container">
+  <div class="row title">
+    <div class="col">
+      <h1><i class="fas fa-users"></i> My <%=  %> Qalcs</h1>
+    </div>
+  </div>
+</div>
+
+<!-- this is a single card, it will be forEach'd using database data  -->
+  <div class="container thumbnail">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="width: 16rem;">
+          <img class="card-img-top" src="http://images.all-free-download.com/images/graphiclarge/animal_baboon_cat_cute_dog_eyes_face_hair_head_600455.jpg" alt="Image for Calculation">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Patient Name:</strong></br><em>Frosty<%=  %></em></h5>
+            <h6 class="card-title"><span><strong>Doctor/Lead:</strong></span></br><em>Dr. Ober<%=  %></em></h6>
+            <h6 class="card-title"><span><strong>Surgery Date:</strong></span></br><em>12pm, 01/01/1999 <%=  %></em></h6>
+            <h6 class="card-title"><span><strong>Details:</strong></span></br></h6>
+            <p class="card-text">Everything went well, the surgery was amazing because Frosty is amazing...<%=   %></p>
+            <a href="/calc/:id" class="btn btn-warning btn-block">Details/Edit</a>
+            <hr>
+            <h6 class="subDate card-title"><strong>Calc Creation Date:</strong><em> 12:00pm, 01/01/1999. <%=  %></em></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<% include ./partials/footer %>

@@ -1,0 +1,35 @@
+
+
+.wrapper {
+  margin: 5%;
+  background: url("images/bGround.jpg");
+}
+
+h1 {
+  color: green;
+}
+
+nav i {
+  font-size: 2em;
+}
+
+.container, title {
+  margin: 30px;
+}
+
+#calcRadios {
+  margin: 10px auto;
+}
+
+footer {
+  margin-top: 40px;
+  margin-left: 90%;
+}
+
+.subDate {
+  font-size: .5em;
+}
+
+.cardbody,span {
+  color: grey;
+}

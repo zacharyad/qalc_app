@@ -1,0 +1,23 @@
+{
+  "name": "qalc_app",
+  "version": "1.0.0",
+  "description": "Qalc - A surgical calculator and records app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharyad/qalc_app.git"
+  },
+  "keywords": [
+    "qalc",
+    "calculator"
+  ],
+  "author": "zacharyAD",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/zacharyad/qalc_app/issues"
+  },
+  "homepage": "https://github.com/zacharyad/qalc_app"
+}
